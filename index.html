@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <title>laPa_c@r6+_3e3</title>
 </head>
+
 <body>
-    <h1>
-        CARLOS ALBERTO CAMPOS JIMENEZ
-    </h1>
-    <h2> que hay aqui?</h2>
-    
+    <main>
+        <form class="info-form" action="#" method="post">
+            <h1>Your Information</h1>
+            
+            <section class="form-group">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="John Doe" required>
+            </section>
+
+            <section class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+            </section>
+
+            <section class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
+            </section>
+
+            <button type="submit">Submit Information</button>
+        </form>
+    </main>
+
 </body>
+
 </html>
