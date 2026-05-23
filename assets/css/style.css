@@ -66,3 +66,17 @@ button {
 button:hover {
     background-color: #004494;
 }
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  padding: 10px;
+}
+
+nav a {
+  color: wheat;
+  margin: 0 10px;
+}
